@@ -1,0 +1,9 @@
+[package]
+name = "IDE-Rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.26" #
+ropey = "1.6"
+egui = "0.34.0"
