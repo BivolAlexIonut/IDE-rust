@@ -1,9 +1,13 @@
+# IDE-Rust — educational desktop mini-IDE (Rust + eframe/egui).
+# See module docs in src/ for architecture notes.
+
 [package]
 name = "IDE-Rust"
 version = "0.1.0"
 edition = "2024"
+description = "Mini IDE with editor, file explorer, and integrated terminal (egui/eframe)."
+license = "MIT OR Apache-2.0"
 
 [dependencies]
-eframe = "0.26" #
+eframe = "0.26"
 ropey = "1.6"
-egui = "0.34.0"
